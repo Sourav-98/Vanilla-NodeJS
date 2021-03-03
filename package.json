@@ -1,0 +1,24 @@
+{
+  "name": "vanilla-nodejs-tutorials",
+  "version": "1.0.0",
+  "description": "A repo for Vanilla NodeJS tutorials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sourav-98/Vanilla-NodeJS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "vanilla",
+    "pure"
+  ],
+  "author": "Sourav RC",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Sourav-98/Vanilla-NodeJS/issues"
+  },
+  "homepage": "https://github.com/Sourav-98/Vanilla-NodeJS#readme"
+}
