@@ -1,0 +1,32 @@
+[
+    {
+        "ID": "001",
+        "Name": "Samsung Galaxy S10+",
+        "UnitPrice": "INR 54,900",
+        "InStockCount": "10"
+    },
+    {
+        "ID": "002",
+        "Name": "iPhone 12",
+        "UnitPrice": "INR 1,33,200",
+        "InStockCount": "15"
+    },
+    {
+        "ID": "003",
+        "Name": "Google Pixel 4XL",
+        "UnitPrice": "INR 67,800",
+        "InStockCount": "6"
+    },
+    {
+        "ID": "004",
+        "Name": "Xaiomi Redmi Note 6pro",
+        "UnitPrice": "INR 15,670",
+        "InStockCount": "23"
+    },
+    {
+        "ID": "005",
+        "Name": "iPhone 11 Pro Max",
+        "UnitPrice": "INR 1,12,500",
+        "InStockCount": "12"
+    }
+]
