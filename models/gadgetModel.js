@@ -15,16 +15,11 @@ let findAll = ()=>{
     });
 }
 
-
 let findById = (gadgetId)=>{
-    return new Promise(()=>{
-        if(Gadgets !== null){
-            for(var i = 0; i < Gadgets.length; i += 1){
-                if(Gadgets[i].ID === gadgetId){
-                    resolve(Gadgets[i]);
-                }
-            }
-            reject(null);
+    return new Promise((resolve, reject)=>{
+        let gadget = Gadgets.find(g =>  g.ID === gadgetId);
+        if(gadget !== undefined){
+            resolve(gadget);
         }
         else{
             reject(null);

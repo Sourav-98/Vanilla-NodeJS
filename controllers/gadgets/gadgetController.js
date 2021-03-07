@@ -29,8 +29,22 @@ async function getAllGadgets(req, res){
     // });
 }
 
+async function getGadgetById(gadgetId, req, res){
+    try{
+        let gadgetFound = await gadgetModel.findById(gadgetId);
+        res.writeHead(200, {"Content-Type": "application/json"});
+        res.end(JSON.stringify(gadgetFound));
+    }
+    catch(err){
+        res.writeHead(404, {"Content-Type": "application/json"});
+        res.end(JSON.stringify({
+            "error": "No Gadget with Id "+ gadgetId + " Found"
+        }));
+    }
+}
 
 
 module.exports = {
-    getAllGadgets
+    getAllGadgets,
+    getGadgetById
 }
