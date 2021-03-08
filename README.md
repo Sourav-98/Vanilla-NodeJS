@@ -1,2 +1,2 @@
 # Vanilla-NodeJS
-A repository for all my Vanilla NodeJS tutorials
+A sample Vanilla NodeJS project
